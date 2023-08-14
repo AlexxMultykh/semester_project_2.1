@@ -1,0 +1,6 @@
+/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/Debug/net7.0/languageLexer.cs
+/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/Debug/net7.0/languageParser.cs
+/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/Debug/net7.0/languageListener.cs
+/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/Debug/net7.0/languageBaseListener.cs
+/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/Debug/net7.0/languageVisitor.cs
+/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/Debug/net7.0/languageBaseVisitor.cs

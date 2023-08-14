@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/semesterProject2.csproj": {}
+  },
+  "projects": {
+    "/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/semesterProject2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/semesterProject2.csproj",
+        "projectName": "semesterProject2",
+        "projectPath": "/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/semesterProject2.csproj",
+        "packagesPath": "/Users/alexmultykh/.nuget/packages/",
+        "outputPath": "/Users/alexmultykh/Desktop/uni/2_semester/programs 2/semesterProject2/semesterProject2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexmultykh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Antlr4": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.6.6, )"
+            },
+            "Antlr4.Runtime": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
