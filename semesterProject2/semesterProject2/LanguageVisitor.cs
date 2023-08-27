@@ -32,8 +32,6 @@ public class LanguageVisitor : languageBaseVisitor<object?>
     {
         foreach (var arg in args)
             Console.Write(arg);
-
-        WriteLine("");
         return null;
     }
 
@@ -221,6 +219,7 @@ public class LanguageVisitor : languageBaseVisitor<object?>
 
     private static object? Multiply(object? left, object? right)
     {
+        string s = "";
         if (left is int l && right is int r)
             return l * r;
 
@@ -232,6 +231,18 @@ public class LanguageVisitor : languageBaseVisitor<object?>
 
         if (left is float lFloat && right is int rInt)
             return lFloat * rInt;
+
+        if (left is int IntL && right is string StrR)
+        {
+            s = String.Concat(Enumerable.Repeat(StrR, IntL));
+            return s;
+        }
+
+        if (left is string StrL && right is int IntR)
+        {
+            s = String.Concat(Enumerable.Repeat(StrL, IntR));
+            return s;
+        }
 
         throw new Exception($"Cannot multiply values of types {left?.GetType()} and {right?.GetType()}.");
     }
